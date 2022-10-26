@@ -1,4 +1,4 @@
 FROM nginx
-RUN sudo apt-get install openssh-server
-RUN sudo systemctl enable ssh
-CMD sudo systemctl start ssh
+RUN apt-get install openssh-server
+RUN systemctl enable ssh
+CMD systemctl start ssh
